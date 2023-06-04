@@ -89,7 +89,7 @@ const generateLicenseBadge = (license) => {
   } else {
     badgeURL = `https://img.shields.io/badge/License-${license}-${color}.svg`;
   }
-  return `![License: ${license}](${badgeURL})\n`;
+  return `![License: ${license}](${badgeURL})<br>\n`;
 };
 
 const generateGitHubLink = (username) => {

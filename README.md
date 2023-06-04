@@ -1,7 +1,7 @@
 # README Generator
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-An application to help users create a fast and simple README
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)<br>
+Creates a fast and simple README
 
 ## Table of Contents
 
@@ -13,11 +13,11 @@ An application to help users create a fast and simple README
 - [Questions](#questions)
 ## Installation
 
-Make sure Node.js is installed
+Make sure you have Node.js installed
 
 ## Usage
 
-Start the application by typing in "node index.js" into the application and answer the following questions
+Open up the application, right click the index.js file, click on open in integrated terminal, and then in the terminal write "node index.js" and answer the following questions
 
 ## License
 
@@ -25,7 +25,7 @@ This project is licensed under the MIT license.
 
 ## Contributing
 
-No guidelines
+If you want to contribute, email me (Linked down below).
 
 ## Tests
 

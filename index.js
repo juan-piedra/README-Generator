@@ -105,29 +105,23 @@ readmeContent += generateLicenseBadge(answers.license);
 }
 
 readmeContent += `${answers.description}\n\n`;
-
 readmeContent += generateTableOfContents(answers);
 
 if (answers.installation) {
 readmeContent += `## Installation\n\n${answers.installation}\n\n`;
 }
-
 if (answers.usage) {
 readmeContent += `## Usage\n\n${answers.usage}\n\n`;
 }
-
 if (answers.license) {
 readmeContent += `## License\n\nThis project is licensed under the ${answers.license} license.\n\n`;
 }
-
 if (answers.contributing) {
 readmeContent += `## Contributing\n\n${answers.contributing}\n\n`;
 }
-
 if (answers.tests) {
 readmeContent += `## Tests\n\n${answers.tests}\n\n`;
 }
-
 if (answers.questions) {
 readmeContent += `## Questions\n\nIf you have any questions, please contact me at ${
  answers.email
